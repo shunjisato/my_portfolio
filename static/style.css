@@ -55,6 +55,7 @@ background-position:41px 50%;
 }*/
 .nav a:hover{
 	background: url(../img/navtop.jpg) no-repeat;
+	background-position: 0px 100%;
 }
 .sidebar {
 	padding:0px 0px 2px 22px;
