@@ -16,13 +16,9 @@ list-style:none;
 }
 
 /*----header----*/
-.header{
-padding: 0px 0px 5px 58px;
+#header{
+padding: 0px 0px 0px 42px;
 font-size: 16px;
-border-bottom: 2px solid #000;
-}
-.headline {
-
 }
 #header a{
 text-decoration: none;
@@ -34,7 +30,7 @@ text-decoration: none;
 
 /*----navigation----*/
 #nav {
-width:159px;
+width:142px;
 min-height:100px; /* for modern browsers */
 height:auto !important; /* for modern browsers */
 height:300px; /* for IE5.x and IE6 */
@@ -69,7 +65,7 @@ margin: 0;
 width:600px;
 min-height:300px; /* for modern browsers */
 margin-left:190px;
-margin-top: 33px;
+margin-top: 41px;
 }
 
 /*----footer----*/
