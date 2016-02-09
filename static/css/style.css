@@ -1,51 +1,50 @@
 @charset "UTF-8";
 
 body{
-	width: 790px;
-	margin:55px 0px 0px 0px;
+	width: 800px;
+	margin: 0;
 	padding: 0;
 	font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
 	font-weight: 100;
 	font-size: 13px;
-	background-color: #fefefe ;
+	background-color: #fefefe;
 	color: #0f0000;
 }
-
 ul{
 	list-style:none;
 }
 
 /*----header----*/
 .header{
-	padding: 0px 0px 10px 90px;
+	width: 160px;
+	margin: 55px 0px 18px 0px;
+	padding: 0px 0px 0px 0px;
 	font-size: 22px;
 	font-weight: bold;
-}
-.headline {
-	border-bottom: 1px solid #422;
+	text-align: right;
 }
 .header a{
 	text-decoration: none;
-	color: #000000;
+	color: #000;
 }
 .header a:hover{
 	text-decoration: none;
 }
-
+.headline {
+	border-bottom: 1px solid #422;
+}
 /*----navigation----*/
 .nav {
-	width:159px;
-	min-height:100px; /* for modern browsers */
-	height:auto !important; /* for modern browsers */
-	height:300px; /* for IE5.x and IE6 */
-	float:left;
-	margin-top:20px;
+	width:160px;
+	margin: 22px 0px 0px 0px;
+	height: auto !important; /* for modern browsers */
+	float: left;
 	text-align: right;
 }
 .nav a {
 	display: block;
 	text-decoration: none;
-	color: #000000;
+	color: #000;
 }
 /*#nav a:hover {
 color: #FFFFFF;
@@ -53,26 +52,31 @@ background: #000000;
 background-repeat:no-repeat;
 background-position:41px 50%;
 }*/
-.nav a:hover{
-	background: url(img/navtop.jpg) no-repeat;
-	background-position: 0px 100%;
+#nav-top:hover {
+	background-color: #ffc;
 }
+#nav-about:hover {
+	background-color: #fdf;
+}
+#nav-works:hover {
+	background-color: #dff;
+}
+
 .sidebar {
-	padding:0px 0px 2px 22px;
+	padding: 0px 0px 2px 0px;
 }
 
 /*----containts----*/
 .contents{
-	width:600px;
-	min-height:300px; /* for modern browsers */
-	margin-left:190px;
-	margin-top: 20px;
+	width: 618px;
+	margin: 22px 0px 35px 22px;
+	float: left;
+	min-height: 300px; /* for modern browsers */
 }
 
 /*----footer----*/
 .footer { 
-	margin:0px 0px 50px 0px;
-	width:100%;
-	height:40px;
-	text-align:right;
+	width: 100%;
+	margin: 0px 0px 35px 0px;
+	text-align: right;
 }
